@@ -129,6 +129,7 @@ if __name__ == "__main__":
 
         clear = lambda: os.system('cls')
     elif os.name == "posix":
+        # https://docs.kernel.org/input/input-programming.html#the-simplest-example
         clear = lambda: os.system('clear')
 
     p_one = Player("X", dcolors.RED)
