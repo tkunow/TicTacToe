@@ -132,7 +132,7 @@ if __name__ == "__main__":
         clear = lambda: os.system('clear')
 
     p_one = Player("X", dcolors.RED)
-    p_two = Player("Y", dcolors.BLUE)
+    p_two = Player("O", dcolors.BLUE)
     game = Game(p_one, p_two)
 
     while True:
